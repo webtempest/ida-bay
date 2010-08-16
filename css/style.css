@@ -1,0 +1,193 @@
+/* 
+  CSS Stylesheet 
+  Author: John Cobb (http://www.jcwd.com.au)
+*/
+
+body{
+  background:#610007;
+}
+
+#container{
+  width:950px;
+  margin:auto;
+  background:#fff;
+  overflow:hidden;
+}
+
+/*
+ *  Typography
+ */
+
+@font-face {
+  font-family: 'FerrumExtra-condensed';
+  src: url('ferrum-webfont.eot');
+  src: local('☺'), url('ferrum-webfont.woff') format('woff'), url('ferrum-webfont.ttf') format('truetype'), url('ferrum-webfont.svg#webfontiIXAUZ8I') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-family:'FerrumExtra-condensed', Georgia; /*not rendering nicely :( */
+  background:url(images/heading.png) no-repeat; /*falling back to background image image replacement*/
+  height:60px;
+  margin:5px 0;
+}
+
+h2{
+  font-family:Georgia;
+  font-size:18px;
+}
+
+h3{
+  font-family:Georgia;
+  font-size:16px;
+  font-weight:normal;
+}
+
+p{
+  font-size:12px;
+  line-height:20px;
+}
+
+/*
+ * Logo and Header
+ */
+
+#logo{
+  height:200px;
+  width:275px;
+  background:url(images/logo.png) no-repeat;
+  float:left;
+}
+
+#header{
+  width:675px;
+  height:200px;
+  float:left;
+}
+
+
+#social{
+  text-align:right;
+  padding:20px 75px 0 0;
+}
+
+/*
+ *  Menu
+ */
+ 
+#main-menu{
+  width:600px;
+  height:20px;
+  overflow:hidden;
+  margin:0 0 10px;
+}
+
+#main-menu .mm-item{
+  width:200px;
+  height:18px;
+  background:#ccc;
+  float:left;
+  text-align:center;
+  padding:2px 0 0 0;
+}
+
+#main-menu #rail{
+  background:#7b3939;
+}
+
+#main-menu #lagoon{
+  background:#29aae1;
+}
+
+#main-menu #society{
+  background:#43e129;
+}
+
+#main-menu #rail a{
+  color:#fff;
+}
+
+#main-menu #lagoon a, #main-menu #society a{
+  color:#000;
+}
+
+#sub-menu{
+  width:600px;
+  height:30px;
+}
+
+#sub-menu ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#sub-menu li{
+  float:left;
+  padding:4px 40px;
+  border-right:solid 1px #666;
+}
+
+#sub-menu li.last{
+  border:none;
+}
+
+/*
+ * Front page splash
+ */
+
+#splash{
+  height:400px;
+  background:url(images/body-bg.png) repeat-x;
+  clear:both;
+}
+
+#intro-text{
+  width:280px;
+  padding:60px 20px;
+  float:left;
+}
+
+
+#image-rotator{
+  height:400px;
+  width:600px;
+  overflow:hidden;
+}
+
+#image-rotator img{
+  height:400px;
+  width:600px;
+}
+
+/*
+ * Front page Content
+ */
+
+#content{
+  background:#fff;
+  width:950px;
+  overflow:hidden;
+}
+
+.front-content{
+  float:left;
+  width:260px;
+  margin:40px 30px 0 20px;
+}
+
+.front-content img{
+  width:260px;
+  height:166px;
+  margin:0 0 20px;
+}
+
+
+
+
+
+
+
+
+
