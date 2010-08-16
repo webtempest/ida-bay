@@ -1,4 +1,4 @@
-hn. idabayrailway.com.au
+h1. idabayrailway.com.au
  
 *Proposed New Features:*
 * New, Modern and Clean Design
@@ -7,14 +7,14 @@ be updated by non-technical people)
 * Embedded Interactive Google Map Showing Location (perhaps on a “Our Location” page 
 or something)
 * Gallery Page With Expandable Thumbnails
-*>. Page Dedicated to Southport Lagoon (photo’s, map information)
-*>. Historical Society Section
+> Page Dedicated to Southport Lagoon (photo’s, map information)
+> Historical Society Section
 * Easily Up-datable With New Posts/News/Articles
 * Gallery
 * Opt-In form (a newsletter sign-up form where people are invited to enter their 
 email address - you are then able to mass email newsletters anytime you wish) 
-*>. Integration With Social Media
+> Integration With Social Media
 * Facebook Page
 * Twitter Account
 * RSS Feed
-*> Training on How to Run Site and Utilise Social Media
+> Training on How to Run Site and Utilise Social Media
